@@ -1,7 +1,8 @@
+<!DOCTYPE html>
 <html>
 <body>
 
-<h2>Image Maps</h2>
+<h1>Image Maps</h1>
 <p>Click on the computer, the phone, or the cup of coffee to go to a new page and read more about the topic:</p>
 
 <img src="workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
@@ -11,6 +12,31 @@
   <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
   <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
 </map>
+<h2>Image Maps</h2>
+<p>Click on the croissant to go to a new page and read more about the topic:</p>
+
+<img src="frenchfood.jpg" alt="French Food" usemap="#foodmap" width="450" height="675">
+
+<map name="foodmap">
+  <area shape="poly" coords="140,121,181,116,204,160,204,222,191,270,140,329,85,355,58,352,37,322,40,259,103,161,128,147" alt="Croissant" href="croissant.htm">
+</map>
+</body>
+<hr>
+<head>
+<style>
+body {
+  background-image: url('img_girl.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+</style>
+</head>
+<body>
+
+<h2>Background Cover</h2>
+
+<p>Set the background-size property to "cover" and the background image will cover the entire element, in this case the body element.</p>
 
 </body>
 </html>
