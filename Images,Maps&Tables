@@ -39,4 +39,75 @@ body {
 <p>Set the background-size property to "cover" and the background image will cover the entire element, in this case the body element.</p>
 
 </body>
+<hr>
+<head>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  color: tomato;
+  font-size: 24px;
+  background-color: yellow;
+  border: 2px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+td {
+  color: black;
+  border: 1px solid #dddddd;
+  padding: 6px;
+}
+
+tr:nth-child(even) {
+  background-color: #00eeff;
+}
+</style>
+</head>
+<body>
+
+<h2>HTML Table<br>Most Valuable Sports Teams in 2021</h2>
+
+<table>
+  <tr>
+    <th>Team</th>
+    <th>Sport</th>
+    <th>Country (League)</th>
+  </tr>
+  <tr>
+    <td>Dallas Cowboys</td>
+    <td>American Football</td>
+    <td>United States (NFL)</td>
+  </tr>
+  <tr>
+    <td>New York Yankees</td>
+    <td>Baseball</td>
+    <td>United States (MLB)</td>
+  </tr>
+  <tr>
+    <td>New York Knicks</td>
+    <td>Basketball</td>
+    <td>United States (NBA)</td>
+  </tr>
+  <tr>
+    <td>FC Barcelona</td>
+    <td>Soccer</td>
+    <td>Spain (La Liga)</td>
+  </tr>
+  <tr>
+    <td>Real Madrid CF</td>
+    <td>Soccer</td>
+    <td>Spain (La Liga)</td>
+  </tr>
+  <tr>
+    <td>Golden State Warriors</td>
+    <td>Basketball</td>
+    <td>United States (NBA)</td>
+  </tr>
+</table>
+
+</body>
 </html>
