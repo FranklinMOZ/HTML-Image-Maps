@@ -40,6 +40,7 @@ body {
 
 </body>
 <hr>
+
 <head>
 <style>
 table {
@@ -62,9 +63,6 @@ td {
   padding: 6px;
 }
 
-tr:nth-child(even) {
-  background-color: #00eeff;
-}
 </style>
 </head>
 <body>
@@ -72,37 +70,47 @@ tr:nth-child(even) {
 <h2>HTML Table<br>Most Valuable Sports Teams in 2021</h2>
 
 <table>
+  <colgroup>
+    <col span="1" style="font-size:20px;background-color:gold;">
+  </colgroup>
   <tr>
+    <th>Rank</th>
     <th>Team</th>
     <th>Sport</th>
     <th>Country (League)</th>
   </tr>
   <tr>
+    <td>1</td>
     <td>Dallas Cowboys</td>
     <td>American Football</td>
     <td>United States (NFL)</td>
   </tr>
   <tr>
+    <td>2</td>
     <td>New York Yankees</td>
     <td>Baseball</td>
     <td>United States (MLB)</td>
   </tr>
   <tr>
+    <td>3</td>
     <td>New York Knicks</td>
     <td>Basketball</td>
     <td>United States (NBA)</td>
   </tr>
   <tr>
+    <td>4</td>
     <td>FC Barcelona</td>
     <td>Soccer</td>
     <td>Spain (La Liga)</td>
   </tr>
   <tr>
+    <td>5</td>
     <td>Real Madrid CF</td>
     <td>Soccer</td>
     <td>Spain (La Liga)</td>
   </tr>
   <tr>
+    <td>6</td>
     <td>Golden State Warriors</td>
     <td>Basketball</td>
     <td>United States (NBA)</td>
