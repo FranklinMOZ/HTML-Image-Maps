@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <body>
 
 <h1>Image Maps</h1>
@@ -23,6 +23,8 @@
 </body>
 <hr>
 <head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 body {
   background-image: url('img_girl.jpg');
